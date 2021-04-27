@@ -33,13 +33,13 @@ a = "double-storey"
 b = "toothed"
 d = "toothed-serifless"
 e = "flat-crossbar"
-f = "flat-hook-serifed"
+f = "flat-hook"
 g = "single-storey-earless-corner-flat-hook"
-i = "serifed"
+i = "serifed-flat-tailed"
 j = "flat-hook-serifed"
 k = "curly"
-l = "serifed"
-m = "earless-rounded-double-arch-short-leg"
+l = "serifed-flat-tailed"
+m = "earless-corner-double-arch-short-leg"
 n = "earless-corner-straight"
 p = "earless-corner"
 q = "earless-corner"
@@ -100,7 +100,7 @@ menu  = 400
 css   = 400
 
 [buildPlans.iosevka-custom.weights.bold]
-shape = 800
+shape = 700
 menu  = 700
 css   = 700
 
