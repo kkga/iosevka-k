@@ -134,10 +134,10 @@ shape = 500        # Unit Width, measured in 1/1000 em.
 menu  = 5          # Width grade for the font's names.
 css   = "normal"   # "font-stretch' property of webfont CSS.
 
-[buildPlans.iosevka-k.widths.extended]
-shape = 600
-menu  = 7
-css   = "expanded"
+# [buildPlans.iosevka-k.widths.extended]
+# shape = 600
+# menu  = 7
+# css   = "expanded"
 
 # End width section
 ###################################################################################################
@@ -147,14 +147,18 @@ css   = "expanded"
 # Certain metrics like line height (leading) could be overridden in your build plan file.
 # Edit the values to change the metrics. Remove this section when overriding is not needed.
 
-# [buildPlans.iosevka-k.metric-override]
-# leading = 1100
-
-# [buildPlans.iosevka-k.metric-override.multiplies]
-# sb = 1.0625
-
-# [buildPlans.iosevka-k.metric-override.adds]
-# sb = 15
+[buildPlans.iosevka-k.metric-override]
+cap         =   665 # 650
+xheight     =   475 # 510
+symbolMid   =   250 # 300
+parenSize   =   1000 # 900
+leading = 1000
+winMetricAscenderPad = 0
+winMetricDescenderPad = 0
+powerlineScaleY = 1
+powerlineScaleX = 1
+powerlineShiftY = 0
+powerlineShiftX = 0
 
 # End metric override section
 ###################################################################################################
