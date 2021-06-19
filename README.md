@@ -6,4 +6,4 @@ Prebuilt fonts are provided in the [`dist`](./dist/) folder, alternatively use t
 
 How to build: <https://github.com/be5invis/Iosevka#building-from-source>
 
-![](./preview.png)
+<img src="./preview.png" width=496>
