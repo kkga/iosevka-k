@@ -34,7 +34,7 @@ b = "toothed"
 d = "toothed-serifless"
 e = "flat-crossbar"
 f = "flat-hook"
-g = "single-storey-earless-corner-flat-hook"
+g = "double-storey"
 i = "hooky"
 j = "flat-hook-serifed"
 k = "curly-serifless"
@@ -50,7 +50,7 @@ u = "toothed"
 v = "curly"
 w = "curly"
 x = "curly-serifless"
-y = "cursive-flat-hook"
+y = "curly"
 turn-v = "curly"
 lower-alpha = "crossing"
 lower-lambda = "curly"
@@ -148,10 +148,10 @@ css   = "normal"   # "font-stretch' property of webfont CSS.
 # Edit the values to change the metrics. Remove this section when overriding is not needed.
 
 [buildPlans.iosevka-k.metric-override]
-cap         =   660
-xheight     =   485
-symbolMid   =   300
-parenSize   =   810
+cap         =   735
+xheight     =   575
+symbolMid   =   340
+parenSize   =  1000
 leading     =  1100
 winMetricAscenderPad = 0
 winMetricDescenderPad = 0
