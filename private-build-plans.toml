@@ -29,16 +29,16 @@ capital-w = "curly"
 capital-x = "curly-serifless"
 capital-y = "curly-serifless"
 capital-z = "curly-serifless"
-a = "double-storey-toothless-corner"
-b = "toothless-corner"
-d = "toothless-corner-serifless"
+a = "double-storey-serifless"
+b = "toothed"
+d = "toothed-serifless"
 e = "flat-crossbar"
 f = "flat-hook"
 g = "double-storey"
 i = "hooky"
 j = "flat-hook-serifed"
 k = "curly-serifless"
-l = "serifed"
+l = "zshaped"
 m = "earless-corner-double-arch-short-leg"
 n = "earless-corner-straight"
 p = "earless-corner"
@@ -46,7 +46,7 @@ q = "earless-corner"
 r = "earless-corner"
 s = "serifless"
 t = "flat-hook"
-u = "toothless-corner"
+u = "toothed"
 v = "curly"
 w = "curly"
 x = "curly-serifless"
@@ -148,17 +148,20 @@ css   = "normal"   # "font-stretch' property of webfont CSS.
 # Edit the values to change the metrics. Remove this section when overriding is not needed.
 
 [buildPlans.iosevka-k.metric-override]
-cap         =   735
-xheight     =   575
+cap         =   700
+xheight     =   530
 symbolMid   =   340
 parenSize   =  1000
 leading     =  1100
-winMetricAscenderPad = 0
-winMetricDescenderPad = 0
-powerlineScaleY = 1
-powerlineScaleX = 1
-powerlineShiftY = 0
-powerlineShiftX = 0
+# winMetricAscenderPad = 0
+# winMetricDescenderPad = 0
+# powerlineScaleY = 1
+# powerlineScaleX = 1
+# powerlineShiftY = 0
+# powerlineShiftX = 0
+
+[buildPlans.iosevka-k.metric-override.multiplies]
+sb          =   0.875
 
 # End metric override section
 ###################################################################################################
