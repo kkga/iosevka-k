@@ -8,10 +8,8 @@ the link:private-build-plans.toml to build manually.
 
 How to build: https://github.com/be5invis/Iosevka#building-from-source
 
-[cols=2,options=header]
+[options=header]
 |===
 |Iosevka (original) at 12pt |Iosevka K at 12pt
-
-|image::preview-original.png
-|image::preview.png
+|image:./preview-original.png |image:./preview.png
 |===
