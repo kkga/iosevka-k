@@ -3,15 +3,15 @@ Custom build plan for Iosevka.
 In addition to removed ligatures and customized symbols, the metrics are
 adjusted for reduced leading.
 
-Prebuilt fonts are provided in the link:./dist/ folder, alternatively use
-the link:./private-build-plans.toml to build manually.
+Prebuilt fonts are provided in the link:dist/ folder, alternatively use
+the link:private-build-plans.toml to build manually.
 
-How to build: link::https://github.com/be5invis/Iosevka#building-from-source
+How to build: https://github.com/be5invis/Iosevka#building-from-source
 
 [cols=2,options=header]
 |===
 |Iosevka (original) at 12pt |Iosevka K at 12pt
 
-|image::./preview-original.png
-|image::./preview.png
+|image::preview-original.png
+|image::preview.png
 |===
