@@ -148,11 +148,17 @@ css   = "normal"   # "font-stretch' property of webfont CSS.
 # Edit the values to change the metrics. Remove this section when overriding is not needed.
 
 [buildPlans.iosevka-k.metric-override]
-cap         =   700
-xheight     =   530
-symbolMid   =   340
-parenSize   =  1000
-leading     =  1100
+cap         =   675
+xheight     =   520
+symbolMid   =   325
+parenSize   =   950
+leading     =  1050
+
+# cap         =   690
+# xheight     =   530
+# symbolMid   =   300
+# parenSize   =  1000
+# leading     =  1075
 # winMetricAscenderPad = 0
 # winMetricDescenderPad = 0
 # powerlineScaleY = 1
