@@ -152,13 +152,7 @@ cap         =   690
 xheight     =   530
 symbolMid   =   320
 leading     =  1100
-parenSize   =   930
-
-# cap         =   690
-# xheight     =   530
-# symbolMid   =   300
-# parenSize   =  1000
-# leading     =  1075
+parenSize   =   950
 # winMetricAscenderPad = 0
 # winMetricDescenderPad = 0
 # powerlineScaleY = 1
